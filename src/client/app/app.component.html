@@ -1,0 +1,19 @@
+<div class="nav-bar">
+  <img class="logo-small" src="../images/logo.png"/>
+  <div class="nav-links">
+    <div>
+      <a [routerLinkActive]="['is-active']" [routerLink]="['']" [routerLinkActiveOptions]="{exact:true}"
+         class="nav-link">Home</a>
+      <a [routerLinkActive]="['is-active']" [routerLink]="['/001']" [routerLinkActiveOptions]="{exact:true}"
+         class="nav-link">001 - Register</a>
+      <a [routerLinkActive]="['is-active']" [routerLink]="['/002']" [routerLinkActiveOptions]="{exact:true}"
+         class="nav-link">002 - Checkout</a>
+    </div>
+    <div>
+      <p>Check out my </p><a  href="http://portfolio.rachellepatman.com" target="_blank">portfolio</a>
+      <p>to see more of my work</p>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

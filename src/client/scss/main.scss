@@ -1,0 +1,25 @@
+$text-primary-color: rgba(0, 0, 0, 0.7);
+$text-secondary-color: rgba(0, 0, 0, 0.5);
+$accent-color: #00a696;
+
+$background-color-hover: #d4d4d4;
+
+$border-regular: #eeeeee;
+$border-dark: #bbbbbb;
+
+$icon-light: #a5a5a5;
+
+$font-primary-color: rgba(0, 0, 0, 0.7);
+$font-secondary-color: rgba(0, 0, 0, 0.35);
+$accent-color: #00a696;
+$dark-icon: rgba(0, 0, 0, 0.78);
+$focus-color: rgba(0, 0, 0, 0.3);
+
+
+
+@import "_freebies";
+@import "_preloaders";
+@import "_gradients";
+@import "_typography";
+@import "_responsive";
+

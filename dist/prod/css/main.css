@@ -1291,13 +1291,8 @@ body {
 .nav-bar p {
   margin: 0;
   line-height: 20px;
-  float: left;
   font-size: 13px;
   letter-spacing: 1px;
-}
-
-.nav-bar a {
-  padding: 0 5px;
 }
 
 .section-wrapper.dark {
@@ -4218,11 +4213,22 @@ p {
   font-family: Questrial Regular;
   color: rgba(0,0,0,.7);
   letter-spacing: 1px;
-  line-height: 20px;
+  margin: 5px 0!important;
+}
+
+.p-l-60 {
+  padding-left: 60px;
+}
+
+.feature-image {
+  max-width: calc(100% - 120px);
+  margin: 20px 60px;
+  max-height: calc(100vh - 200px);
 }
 
 a {
   text-decoration: none;
+  letter-spacing: 1px;
   color: #00a696;
   font-weight: 700;
 }

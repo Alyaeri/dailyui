@@ -13,7 +13,7 @@ import { Component } from '@angular/core';
 export class TwoComponent {
 
   taskTitle:string = '002 - Checkout';
-  taskDescription:string = 'Checkout for Frends headphones';
-  taskImage:string = '../images/002.jpg';
+  taskDescription:string = 'Concept checkout page for Frends headphones';
+  taskImage:string = '../images/002.png';
 
 }

@@ -53,11 +53,22 @@ p {
   font-size: 14px;
   color: $text-primary-color;
   letter-spacing: 1px;
-  line-height: 20px;
+  margin: 5px 0!important;
+}
+
+.p-l-60 {
+  padding-left: 60px;
+}
+
+.feature-image {
+  max-width: calc(100% - 120px);
+  margin: 20px 60px;
+  max-height: calc(100vh - 200px);
 }
 
 a {
   text-decoration: none;
+  letter-spacing: 1px;
   color: $accent-color;
   font-weight: bold;
 }

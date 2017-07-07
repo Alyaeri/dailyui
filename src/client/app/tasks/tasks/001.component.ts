@@ -12,8 +12,8 @@ import { Component } from '@angular/core';
 })
 export class OneComponent {
 
-  taskTitle:string = '001 - Register';
-  taskDescription:string = 'A registration page for an app using my personal identity styling';
-  taskImage:string = '../images/001.png';
+  taskTitle: string = '001 - Sign Up';
+  taskDescription: string = 'A registration page for an app using my personal identity styling, focusing on the interaction and user experience of the registration form';
+  taskImage: string = '../images/001.GIF';
 
 }

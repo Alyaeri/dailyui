@@ -13,11 +13,12 @@ import { SevenComponent } from './tasks/007.component';
 import { EightComponent } from './tasks/008.component';
 import { NineComponent } from './tasks/009.component';
 import { TenComponent } from './tasks/010.component';
+import { ElevenComponent } from './tasks/011.component';
 
 @NgModule({
   imports: [ CommonModule, TasksRoutingModule, SharedModule,  MdTabsModule,
     MdSidenavModule, MdIconModule, MdButtonModule ],
-  declarations: [ OneComponent, TwoComponent, ThreeComponent, FourComponent, FiveComponent, SixComponent, SevenComponent, EightComponent, NineComponent, TenComponent ],
+  declarations: [ OneComponent, TwoComponent, ThreeComponent, FourComponent, FiveComponent, SixComponent, SevenComponent, EightComponent, NineComponent, TenComponent, ElevenComponent ],
   exports: []
 })
 export class TasksModule {

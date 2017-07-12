@@ -9,6 +9,7 @@ import { SixComponent } from './tasks/006.component';
 import { SevenComponent } from './tasks/007.component';
 import { EightComponent } from './tasks/008.component';
 import { NineComponent } from './tasks/009.component';
+import { TenComponent } from './tasks/010.component';
 
 @NgModule({
   imports: [
@@ -21,7 +22,8 @@ import { NineComponent } from './tasks/009.component';
       {path: '006', component: SixComponent},
       {path: '007', component: SevenComponent},
       {path: '008', component: EightComponent},
-      {path: '009', component: NineComponent}
+      {path: '009', component: NineComponent},
+      {path: '010', component: TenComponent}
     ])
   ],
   exports: [ RouterModule ]

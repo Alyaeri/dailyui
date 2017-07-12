@@ -1,11 +1,11 @@
 {
   "static": {
     "urls": {
-      "/index.html": "8e1648b21889d945f0ad17dc12d3eac80c29cb93",
+      "/index.html": "3e9486d7795ac0277a32299d9cf836ae777b5366",
       "/worker-basic.min.js": "93904d94c0bef0479f1ec0b182788f4301d9f28e",
       "/css\\main.css": "49f960b48618be45da5db15d52b2fd1168738f09",
-      "/favicon\\android-icon-192x192.png": "41f3cbbe6e72075740c358563b86e11a9d839809",
       "/favicon\\android-icon-144x144.png": "6604fde0ae7929bcbadda003750b1ac0d212af3c",
+      "/favicon\\android-icon-192x192.png": "41f3cbbe6e72075740c358563b86e11a9d839809",
       "/favicon\\android-icon-36x36.png": "545fd1f72f7b83a0952be7cd05a9508e41742fa0",
       "/favicon\\android-icon-48x48.png": "037d7f7a7e4273cb5c19d6a64b34b05d8e34a3de",
       "/favicon\\android-icon-72x72.png": "e975c7b94777a6aae212396f61ec17d0f30f40bd",
@@ -41,10 +41,11 @@
       "/images\\006.png": "ca55c9ed454ac508a1499cded6ea5f6f6cb64eed",
       "/images\\007.png": "5833486f1a6bced3f3963a95e3bdaf2364c5a137",
       "/images\\008.png": "5a713e3da5a8989704adae53a7742e19ce4312f0",
-      "/images\\009.png": "fb3f9f8579098e8665eb435cd18a7ae61b9c9878",
+      "/images\\009.png": "f0a271f829c26ea5719ae5e687439cb709d76d53",
+      "/images\\010.gif": "73eeb744509d627438a6eea3188d5955e401f58c",
       "/images\\logo.png": "e57f28942612387c2184fadd654d6a4394d9ba08",
-      "/js\\shims.js": "9ae3e76160afafb39417907a7fa5ea9eb18be514",
-      "/js\\app.js": "b719cdeb6cdb23140c1c4bdc0b1267fe7ab04b3f"
+      "/js\\app.js": "4e2af1404f2f839f51cdff9376459b6b26cbc286",
+      "/js\\shims.js": "9ae3e76160afafb39417907a7fa5ea9eb18be514"
     }
   },
   "routing": {

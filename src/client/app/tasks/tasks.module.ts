@@ -14,11 +14,40 @@ import { EightComponent } from './tasks/008.component';
 import { NineComponent } from './tasks/009.component';
 import { TenComponent } from './tasks/010.component';
 import { ElevenComponent } from './tasks/011.component';
+import { TwelveComponent } from './tasks/012.component';
+import { ThirteenComponent } from './tasks/013.component';
+import { FourteenComponent } from './tasks/014.component';
+import { FifteenComponent } from './tasks/015.component';
+import { SixteenComponent } from './tasks/016.component';
+import { SeventeenComponent } from './tasks/017.component';
+import { EighteenComponent } from './tasks/018.component';
+import { NineteenComponent } from './tasks/019.component';
+import { TwentyComponent } from './tasks/020.component';
 
 @NgModule({
-  imports: [ CommonModule, TasksRoutingModule, SharedModule,  MdTabsModule,
+  imports: [ CommonModule, TasksRoutingModule, SharedModule, MdTabsModule,
     MdSidenavModule, MdIconModule, MdButtonModule ],
-  declarations: [ OneComponent, TwoComponent, ThreeComponent, FourComponent, FiveComponent, SixComponent, SevenComponent, EightComponent, NineComponent, TenComponent, ElevenComponent ],
+  declarations: [ OneComponent,
+    TwoComponent,
+    ThreeComponent,
+    FourComponent,
+    FiveComponent,
+    SixComponent,
+    SevenComponent,
+    EightComponent,
+    NineComponent,
+    TenComponent,
+    ElevenComponent,
+    TwelveComponent,
+    ThirteenComponent,
+    FourteenComponent,
+    FifteenComponent,
+    SixteenComponent,
+    SeventeenComponent,
+    EighteenComponent,
+    NineteenComponent,
+   TwentyComponent
+  ],
   exports: []
 })
 export class TasksModule {

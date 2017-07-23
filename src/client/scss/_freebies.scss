@@ -100,6 +100,7 @@ body {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    overflow: auto;
 
     .nav-link {
       color: $text-secondary-color;

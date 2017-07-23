@@ -11,6 +11,15 @@ import { EightComponent } from './tasks/008.component';
 import { NineComponent } from './tasks/009.component';
 import { TenComponent } from './tasks/010.component';
 import { ElevenComponent } from './tasks/011.component';
+import { TwelveComponent } from './tasks/012.component';
+import { ThirteenComponent } from './tasks/013.component';
+import { FourteenComponent } from './tasks/014.component';
+import { FifteenComponent } from './tasks/015.component';
+import { SixteenComponent } from './tasks/016.component';
+import { SeventeenComponent } from './tasks/017.component';
+import { EighteenComponent } from './tasks/018.component';
+import { NineteenComponent } from './tasks/019.component';
+import { TwentyComponent } from './tasks/020.component';
 
 @NgModule({
   imports: [
@@ -25,7 +34,16 @@ import { ElevenComponent } from './tasks/011.component';
       {path: '008', component: EightComponent},
       {path: '009', component: NineComponent},
       {path: '010', component: TenComponent},
-      {path: '011', component: ElevenComponent}
+      {path: '011', component: ElevenComponent},
+      {path: '012', component: TwelveComponent},
+      {path: '013', component: ThirteenComponent},
+      {path: '014', component: FourteenComponent},
+      {path: '015', component: FifteenComponent},
+      {path: '016', component: SixteenComponent},
+      {path: '017', component: SeventeenComponent},
+      {path: '018', component: EighteenComponent},
+      {path: '019', component: NineteenComponent},
+      {path: '020', component: TwentyComponent}
     ])
   ],
   exports: [ RouterModule ]

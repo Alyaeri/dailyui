@@ -1,9 +1,9 @@
 {
   "static": {
     "urls": {
-      "/index.html": "e1f88ac2c49ff278f97adc592dec778b123c2528",
+      "/index.html": "3378dc60d9e062b6d920cb5ebf8699d2eb41e5f4",
       "/worker-basic.min.js": "93904d94c0bef0479f1ec0b182788f4301d9f28e",
-      "/css\\main.css": "49f960b48618be45da5db15d52b2fd1168738f09",
+      "/css\\main.css": "49ed62a6706574a48605084cc958fc5549def3e9",
       "/favicon\\android-icon-144x144.png": "6604fde0ae7929bcbadda003750b1ac0d212af3c",
       "/favicon\\android-icon-192x192.png": "41f3cbbe6e72075740c358563b86e11a9d839809",
       "/favicon\\android-icon-36x36.png": "545fd1f72f7b83a0952be7cd05a9508e41742fa0",
@@ -37,15 +37,24 @@
       "/images\\002.png": "7217699eb1e81a1d85ad00dbd04ca007ef846686",
       "/images\\003.png": "26eb1dbc8d47e0c294c064333bebe377dc07fce4",
       "/images\\004.png": "48a0164bfa765857df8b74e3ecfb175c2c03bebf",
-      "/images\\006.png": "ca55c9ed454ac508a1499cded6ea5f6f6cb64eed",
       "/images\\005.png": "398e7814de7a0d013a3cced03b233485468a9734",
+      "/images\\006.png": "ca55c9ed454ac508a1499cded6ea5f6f6cb64eed",
       "/images\\007.png": "5833486f1a6bced3f3963a95e3bdaf2364c5a137",
       "/images\\008.png": "5a713e3da5a8989704adae53a7742e19ce4312f0",
       "/images\\009.png": "f0a271f829c26ea5719ae5e687439cb709d76d53",
       "/images\\010.gif": "73eeb744509d627438a6eea3188d5955e401f58c",
       "/images\\011.png": "d68e223e027fa6a886fdca043b947f9965158e8b",
+      "/images\\012.png": "e3120d68dfd93a236a8116f970a22c3895ac56af",
+      "/images\\013.png": "da72a5f82d2a4beea9526a624c82c40845d55b39",
+      "/images\\014.gif": "c37f916baec46d2ee2f0993c9c2d85b044939085",
+      "/images\\015.gif": "2f3cab6c6edcc149edca60f1d07d30bf75682e8c",
+      "/images\\016.png": "aff277b88d8a4721f1e3d643a34efe6063ce9b06",
+      "/images\\017.png": "496ab10080bff8eb9b123af67f83db3bfc9bfafe",
+      "/images\\018.png": "3fa0dbcffad5a90477fc1c24c1b8f0532e2acb2e",
+      "/images\\019.png": "941f4e71ae0cc0bf83f7ce95e5b013cce57dba35",
+      "/images\\020.png": "7d094ceac889d02621a4b9a250b64fcd70131e8f",
       "/images\\logo.png": "e57f28942612387c2184fadd654d6a4394d9ba08",
-      "/js\\app.js": "38e37d378c0422d19f70061f77c06e21adf580eb",
+      "/js\\app.js": "c356fe1aa0e57d44a738695b3764465b4313df71",
       "/js\\shims.js": "9ae3e76160afafb39417907a7fa5ea9eb18be514"
     }
   },

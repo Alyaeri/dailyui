@@ -35,10 +35,15 @@ body {
 .router-outlet {
   height: 100vh;
   background-color: #f3f3f3;
-  width: calc(100% - 300px);
+  width: 100%;
   overflow: auto;
   display: block;
+}
+
+.content-wrapper {
+  float: left;
   margin-left: 300px;
+  width: calc(100% - 300px);
 }
 
 .accordion-wrapper {
@@ -749,9 +754,13 @@ md-sidenav {
   transition: all 0.5s linear;
 }
 
+.card-wrapper {
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
 .card {
   box-sizing: border-box;
-  margin: 18px;
   background-color: white;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12), 0 3px 5px -1px rgba(0, 0, 0, .2);
   display: flex;
@@ -759,12 +768,18 @@ md-sidenav {
   flex-flow: column;
   position: relative;
   border-radius: 2px;
+  padding: 30px;
+  width: 60%;
+  margin: 0 auto;
 
   img {
-    width: 100%;
     align-self: center;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
+    margin-top: 20px;
+    max-height: 80vh;
+    width: auto;
+    max-width: 100%;
   }
 
   .card-title {

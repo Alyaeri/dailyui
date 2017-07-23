@@ -1,10 +1,33 @@
-<div class="hero">
-  <div class="full-width">
-    <h1>Daily UI Challenge</h1>
-    <h3>By Rachelle Patman</h3>
-    <p>The <a href="http://www.dailyui.co/" target="_blank">Daily UI Challenge</a> is about sharpening my design skills, as well as increasing my design efficiency and practicing time
-      management.</p>
-    <p>Each challenge takes between 30 minutes and an hour, and is used as a warm up activity before the day begins.</p>
+<div class="nav-bar">
+  <div class="nav-links">
+    <div>
+      <a class="nav-link" *ngFor="let SingleTask of tasks" href="#{{SingleTask.title}}">
+        {{SingleTask.title}}
+      </a>
+    </div>
   </div>
 </div>
 
+<div class="content-wrapper">
+  <div class="hero">
+    <div class="full-width">
+      <h1>Daily UI Challenge</h1>
+      <h3>By Rachelle Patman</h3>
+      <p>The <a href="http://www.dailyui.co/" target="_blank">Daily UI Challenge</a> is about sharpening my design
+        skills,
+        as well as increasing my design efficiency and practicing time
+        management.</p>
+      <p>Each challenge takes between 30 minutes and an hour, and is used as a warm up activity before the day
+        begins.</p>
+    </div>
+  </div>
+
+  <div *ngFor="let SingleTask of tasks" id="{{SingleTask.title}}" class="card-wrapper">
+    <div class="card">
+      <h2>{{SingleTask.title}}</h2>
+      <p>{{SingleTask.description}}</p>
+
+      <img src="{{SingleTask.imageURL}}"/>
+    </div>
+  </div>
+</div>

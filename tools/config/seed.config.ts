@@ -405,9 +405,8 @@ export class SeedConfig {
       '@angular/platform-browser-dynamic/testing':
         'node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic-testing.umd.js',
       '@angular/router/testing': 'node_modules/@angular/router/bundles/router-testing.umd.js',
-      'ng-gallery': 'node_modules/ng-gallery/bundles/ng-gallery.umd.js',
       '@agm/core': 'node_modules/@agm/core/core.umd.js',
-      'ng2-scrollimate': 'node_modules/ng2-scrollimate/dist/bundles/ng2-scrollimate.umd.js',
+      'ng2-simple-page-scroll': 'node_modules/ng2-simple-page-scroll/bundles/ng2-simple-page-scroll.umd.js',
       'app/*': '/app/*',
       // For test config
       'dist/dev/*': '/base/dist/dev/*',
@@ -445,17 +444,14 @@ export class SeedConfig {
       [join(this.TMP_DIR, this.BOOTSTRAP_DIR, '*')]: `${this.TMP_DIR}/${this.BOOTSTRAP_DIR}/*`,
       '@angular/platform-browser/animations': 'node_modules/@angular/platform-browser/bundles/platform-browser-animations.umd.js',
       '@angular/animations/browser': 'node_modules/@angular/animations/bundles/animations-browser.umd.js',
+      'ng2-simple-page-scroll': 'node_modules/ng2-simple-page-scroll/bundles/ng2-simple-page-scroll.umd.js',
       'dist/tmp/node_modules/*': 'dist/tmp/node_modules/*',
       'node_modules/*': 'node_modules/*',
       '*': 'node_modules/*'
     },
     packages: {
-      'ng2-scrollimate': {
-        main: 'dist/bundles/ng2-scrollimate.umd.js',
-        defaultExtension: 'js'
-      },
-      'ng-gallery': {
-        main: 'bundles/ng-gallery.umd.js',
+      'ng2-simple-page-scroll': {
+        main: 'bundles/ng2-simple-page-scroll.umd.js',
         defaultExtension: 'js'
       },
       '@agm/core': {
@@ -465,7 +461,8 @@ export class SeedConfig {
       '@angular/animations': {
         main: 'bundles/animations.umd.js',
         defaultExtension: 'js'
-      }, '@angular/material': {
+      },
+      '@angular/material': {
         main: 'bundles/material.umd.js',
         defaultExtension: 'js'
       },

@@ -1,14 +1,17 @@
 <div class="nav-bar">
+
   <div class="nav-links">
     <div>
-      <a class="nav-link" *ngFor="let SingleTask of tasks" href="#{{SingleTask.title}}">
-        {{SingleTask.title}}
-      </a>
+      <ng-container *ngFor="let SingleTask of tasks">
+        <a (click)="scrollTo('#id' + SingleTask.id, '#v-scrollable')" class="nav-link">
+          {{SingleTask.title}}
+        </a>
+      </ng-container>
     </div>
   </div>
 </div>
 
-<div class="content-wrapper">
+<div class="content-wrapper" ng2-scrollable id="v-scrollable">
   <div class="hero">
     <div class="full-width">
       <h1>Daily UI Challenge</h1>
@@ -22,12 +25,16 @@
     </div>
   </div>
 
-  <div *ngFor="let SingleTask of tasks" id="{{SingleTask.title}}" class="card-wrapper">
+  <div *ngFor="let SingleTask of tasks" id="id{{SingleTask.id}}" class="card-wrapper">
     <div class="card">
       <h2>{{SingleTask.title}}</h2>
       <p>{{SingleTask.description}}</p>
 
       <img src="{{SingleTask.imageURL}}"/>
     </div>
+  </div>
+
+  <div id="potato">
+    potato
   </div>
 </div>

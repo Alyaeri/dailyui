@@ -8,7 +8,8 @@ import { HomeModule } from './home/home.module';
 import { SharedModule } from './shared/shared.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MdTabsModule, MdSidenavModule, MdIconModule, MdButtonModule } from '@angular/material';
-import { Ng2SimplePageScrollModule } from 'ng2-simple-page-scroll';
+import { Ng2ScrollableModule } from 'ng2-scrollable';
+import { Ng2UtilsModule } from 'ng2-utils';
 
 @NgModule({
   imports: [ BrowserModule,
@@ -21,8 +22,10 @@ import { Ng2SimplePageScrollModule } from 'ng2-simple-page-scroll';
     MdSidenavModule,
     MdIconModule,
     MdButtonModule,
-    SharedModule.forRoot(),
-    Ng2SimplePageScrollModule.forRoot()],
+    Ng2ScrollableModule,
+    Ng2UtilsModule,
+    SharedModule.forRoot()
+  ],
   declarations: [ AppComponent ],
   providers: [ {
     provide: APP_BASE_HREF,

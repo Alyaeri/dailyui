@@ -136,7 +136,6 @@
     "yargs": "8.0.1"
   },
   "dependencies": {
-    "@agm/core": "^1.0.0-beta.0",
     "@angular/animations": "4.1.1",
     "@angular/common": "4.1.1",
     "@angular/compiler": "4.1.1",
@@ -150,7 +149,8 @@
     "@angular/service-worker": "1.0.0-beta.14",
     "core-js": "2.4.1",
     "intl": "1.2.5",
-    "ng2-simple-page-scroll": "^2.0.0",
+    "ng2-scrollable": "0.8.0",
+    "ng2-utils": "0.6.1",
     "rxjs": "5.2.0",
     "systemjs": "0.19.41",
     "zone.js": "0.8.7"

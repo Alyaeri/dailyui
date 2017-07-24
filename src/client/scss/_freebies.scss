@@ -33,14 +33,14 @@ body {
 }
 
 .router-outlet {
-  height: 100vh;
-  background-color: #f3f3f3;
-  width: 100%;
-  overflow: auto;
-  display: block;
+
 }
 
 .content-wrapper {
+  height: 100vh;
+  background-color: #f3f3f3;
+  overflow: auto;
+  display: block;
   float: left;
   margin-left: 300px;
   width: calc(100% - 300px);
@@ -115,6 +115,7 @@ body {
       text-transform: uppercase;
       width: 100%;
       float: left;
+      cursor: pointer;
     }
 
     .is-active {

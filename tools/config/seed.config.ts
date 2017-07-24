@@ -404,7 +404,7 @@ export class SeedConfig {
       '@angular/platform-browser-dynamic/testing':
         'node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic-testing.umd.js',
       '@angular/router/testing': 'node_modules/@angular/router/bundles/router-testing.umd.js',
-      'ng2-scrollable': 'node_modules/ng2-scrollable/dist/ng2-scrollable.umd.js',
+      '@ngui/scrollable': 'node_modules/@ngui/scrollable/dist/scrollable.umd.js',
       'ng2-utils': 'node_modules/ng2-utils/dist/ng2-utils.umd.js',
       'app/*': '/app/*',
       // For test config
@@ -443,15 +443,15 @@ export class SeedConfig {
       [join(this.TMP_DIR, this.BOOTSTRAP_DIR, '*')]: `${this.TMP_DIR}/${this.BOOTSTRAP_DIR}/*`,
       '@angular/platform-browser/animations': 'node_modules/@angular/platform-browser/bundles/platform-browser-animations.umd.js',
       '@angular/animations/browser': 'node_modules/@angular/animations/bundles/animations-browser.umd.js',
-      'ng2-scrollable': 'node_modules/ng2-scrollable/dist/ng2-scrollable.umd.js',
+      '@ngui/scrollable': 'node_modules/@ngui/scrollable/dist/scrollable.umd.js',
       'ng2-utils': 'node_modules/ng2-utils/dist/ng2-utils.umd.js',
       'dist/tmp/node_modules/*': 'dist/tmp/node_modules/*',
       'node_modules/*': 'node_modules/*',
       '*': 'node_modules/*'
     },
     packages: {
-      'ng2-scrollable': {
-        main: 'dist/ng2-scrollable.umd.js',
+      '@ngui/scrollable': {
+        main: 'scrollable/dist/scrollable.umd.js',
         defaultExtension: 'js'
       },
       'ng2-utils': {

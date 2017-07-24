@@ -8,8 +8,8 @@ import { HomeModule } from './home/home.module';
 import { SharedModule } from './shared/shared.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MdTabsModule, MdSidenavModule, MdIconModule, MdButtonModule } from '@angular/material';
-import { Ng2ScrollableModule } from 'ng2-scrollable';
 import { Ng2UtilsModule } from 'ng2-utils';
+import { NguiScrollableModule } from '@ngui/scrollable';
 
 @NgModule({
   imports: [ BrowserModule,
@@ -22,7 +22,7 @@ import { Ng2UtilsModule } from 'ng2-utils';
     MdSidenavModule,
     MdIconModule,
     MdButtonModule,
-    Ng2ScrollableModule,
+    NguiScrollableModule,
     Ng2UtilsModule,
     SharedModule.forRoot()
   ],

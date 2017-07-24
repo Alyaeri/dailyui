@@ -32,10 +32,6 @@ body {
   border-top-right-radius: 3px;
 }
 
-.router-outlet {
-
-}
-
 .content-wrapper {
   height: 100vh;
   background-color: #f3f3f3;
@@ -94,10 +90,10 @@ body {
 
   .nav-links {
     float: right;
-    padding: 25px 25px 25px 35px;
+    padding: 25px 0;
     z-index: 1;
     position: relative;
-    width: calc(100% - 60px);
+    width: 100%;
     display: flex;
     align-content: space-between;
     flex-wrap: wrap;
@@ -110,12 +106,16 @@ body {
     .nav-link {
       color: $text-secondary-color;
       text-decoration: none;
-      padding: 10px 0;
+      padding: 10px 30px;
       font-family: 'Questrial Regular', sans-serif;
       text-transform: uppercase;
-      width: 100%;
+      width: calc(100% - 60px);
       float: left;
       cursor: pointer;
+    }
+
+    .nav-link:hover{
+      background-color: #EEEEEE;
     }
 
     .is-active {

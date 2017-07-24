@@ -2,6 +2,9 @@
 
   <div class="nav-links">
     <div>
+      <a (click)="scrollTo('#idhero', '#v-scrollable')" class="nav-link">
+        Home
+      </a>
       <ng-container *ngFor="let SingleTask of tasks">
         <a (click)="scrollTo('#id' + SingleTask.id, '#v-scrollable')" class="nav-link">
           {{SingleTask.title}}
@@ -12,7 +15,7 @@
 </div>
 
 <div class="content-wrapper" ng2-scrollable id="v-scrollable">
-  <div class="hero">
+  <div class="hero" id="idhero">
     <div class="full-width">
       <h1>Daily UI Challenge</h1>
       <h3>By Rachelle Patman</h3>

@@ -395,7 +395,6 @@ export class SeedConfig {
       '@angular/router': 'node_modules/@angular/router/bundles/router.umd.js',
       '@angular/animations/browser': 'node_modules/@angular/animations/bundles/animations-browser.umd.js',
       '@angular/material': 'node_modules/@angular/material/bundles/material.umd.js',
-
       '@angular/common/testing': 'node_modules/@angular/common/bundles/common-testing.umd.js',
       '@angular/compiler/testing': 'node_modules/@angular/compiler/bundles/compiler-testing.umd.js',
       '@angular/core/testing': 'node_modules/@angular/core/bundles/core-testing.umd.js',
@@ -451,12 +450,12 @@ export class SeedConfig {
       '*': 'node_modules/*'
     },
     packages: {
-      'ng2-utils': {
-        main: 'dist/ng2-utils.umd.js',
-        defaultExtension: 'js'
-      },
       'ng2-scrollable': {
         main: 'dist/ng2-scrollable.umd.js',
+        defaultExtension: 'js'
+      },
+      'ng2-utils': {
+        main: 'dist/ng2-utils.umd.js',
         defaultExtension: 'js'
       },
       '@angular/animations': {
